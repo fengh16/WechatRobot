@@ -1,0 +1,23 @@
+一、回复名称为“AAA”的群@自己的消息 以及 备注为“B”“C”“D”的三个好友的消息：
+
+<notblockAll>0</notblockAll>
+<friendlist>B</friendlist>
+<friendlist>C</friendlist>
+<friendlist>D</friendlist>
+<grouplist>AAA</grouplist>
+<key>30e5b3fa112e408a91bec1b3ff78c3ca</key>
+
+二、回复除了备注为“A”“B”“C”的三个好友之外的其余所有好友，并且回复名称为“DDD”的群的消息：
+
+<notblockAll>1</notblockAll>
+<blocklist>A</blocklist>
+<blocklist>B</blocklist>
+<blocklist>C</blocklist>
+<grouplist>DDD</grouplist>
+<key>30e5b3fa112e408a91bec1b3ff78c3ca</key>
+
+三、只与备注为“DDD”的好友交流：
+
+<notblockAll>0</notblockAll>
+<friendlist>DDD</friendlist>
+<key>30e5b3fa112e408a91bec1b3ff78c3ca</key>

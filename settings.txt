@@ -1,0 +1,23 @@
+﻿下面这一个notblockAll里面设置是否默认回复所有好友聊天
+如果设置为1，则在blocklist里面的好友 不会 被机器人自动回复，friendlist不起作用
+设置为0，则只有在friendlist里面的好友 会 被机器人自动回复，blocklist不起作用
+<notblockAll>1</notblockAll>
+
+以下在notblockAll为1时起作用
+<blocklist>被屏蔽的好友备注1</blocklist>
+<blocklist>被屏蔽的好友备注2</blocklist>
+<blocklist>被屏蔽的好友备注3</blocklist>
+
+以下在notblockAll为0时起作用
+<friendlist>要回复的好友备注1</friendlist>
+
+以下为要回复别人的@事件的群的设置
+<grouplist>群名1</grouplist>
+<grouplist>群名2</grouplist>
+
+以下为从图灵机器人网上获取的key
+进入http://www.tuling123.com/
+注册、登陆之后进入个人中心（http://www.tuling123.com/member/robot/index.jhtml）
+选择我的机器人--创建机器人
+创建完成后点击首页，即可看到APIkey
+<key>30e5b3fa112e408a91bec1b3ff78c3ca</key>
